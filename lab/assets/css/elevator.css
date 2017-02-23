@@ -1,5 +1,6 @@
 body {
-    background-color: #DBE1E3;
+    background-color: white
+    ;
 }
 
 .menu {
@@ -8,10 +9,10 @@ body {
     font-size: 16px;
     font-family: helvetica, arial, sans-serif;
     font-weight: bold;
-    font-color: #D3D3D3;
+    font-color: white;
     text-align: center;
-    background-color: #B3B8B9;
-    border-radius: 8px;
+    background-color: #BFBFBF;
+    border-radius: none;
 }
 
 .menu ul {
@@ -60,7 +61,7 @@ padding: 20px;
 }
 
 .menu a:hover {
-    color: #F90;
+    color: #F9EC9F;
     background-color: none;
 }
 
