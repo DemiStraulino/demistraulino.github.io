@@ -1,0 +1,15 @@
+body {  
+	background-image: url(https://media.giphy.com/media/3osxYcKIttf3N5GTsY/giphy.gif);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-attachment: scroll;
+	} 
+
+.element { 
+    width:30px;
+    height:30px;
+    border-radius: 400px;
+    background-color: white; 
+    margin: 50px;
+    float: left; /*makes elements move horizonatally instead of vertically */ 
+}
