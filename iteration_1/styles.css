@@ -1,15 +1,13 @@
 body { 
-    background: -webkit-linear-gradient(left top, #7FDBFF, #B10DC9); 
+    background: -webkit-linear-gradient(left top, #E9967A, #8B0000); 
     
     margin:0;
 }
 .element { 
     width:200px;
     height:200px;
-    border-radius:50px;
+    border-radius:100px;
     background-color: #ffb6c1; 
     margin:10px;
-    float: left;
-     /*makes elements move horizonatally instead of vertically */
-    
+    float: left; /*makes elements move horizonatally instead of vertically */ 
 }
