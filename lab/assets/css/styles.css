@@ -1,0 +1,28 @@
+body{
+	font-family: 'Baloo', cursive;
+	font-size: 80px;
+}
+.wrapper{
+	text-align: left;
+	margin: 10px;
+	padding: 30px;
+	text-overflow: wrap;
+}
+.header{
+	padding: 10px;
+	line-height: 120px;
+	background: -webkit-linear-gradient(-45deg, rgba(65,44,109,1) 0%,rgba(211,21,129,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-overflow: nowrap;
+}
+.studio{
+	color: #412C6D;
+	padding: 10px;
+	line-height: 70px
+}
+.lab{
+	color: #D31581;
+	padding: 10px;
+	line-height: 70px
+}
