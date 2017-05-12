@@ -1,0 +1,237 @@
+body {
+  background-color: black;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* A */
+.wrapper {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+.circle1-A {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(90deg);
+  transition: all 500ms;
+  top: 0;
+  left: 0;
+}
+
+.bar1-A {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  height: 130px;
+  background-color: black;
+}
+
+.bar1-2-B{
+  width: 40px;
+  position: absolute;
+  top: 20;
+  left: 60px;
+  height: 130px;
+  transform: rotate(80deg)
+  background-color: black;
+}
+
+.circle2-A {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(120deg);
+  transition: all 500ms;
+  top: 100px;
+  left: 0;
+}
+
+.bar2-A {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 16px;
+  height: 130px;
+  background-color: black;
+}
+.circle3-A {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(40deg);
+  transition: all 500ms;
+  top: 0;
+  left: 100px;
+}
+
+.bar3-A {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  height: 130px;
+  background-color: black;
+}
+
+.circle4-A {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(55deg);
+  transition: all 500ms;
+  top: 100px;
+  left: 100px;
+}
+
+.bar4-A {
+  width: 40px;
+  position: absolute;
+  top: -18px;
+  right: 4px;
+  height: 140px;
+  background-color: black;
+  transform: rotate(140deg)
+}
+
+.on .circle1-A {
+  transform: rotate(20deg);
+}
+.on .circle2-A {
+  transform: rotate(20deg);
+}
+.on .circle3-A {
+  transform: rotate(160deg);
+}
+.on .circle4-A {
+  transform: rotate(20deg);
+}
+
+/* B */
+.wrapper {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+.circle1-B {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(90deg);
+  transition: all 500ms;
+  top: 0;
+  left: 0;
+}
+
+.bar1-B {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  height: 130px;
+  background-color: black;
+}
+
+.circle2-B {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  transform: rotate(120deg);
+  transition: all 500ms;
+  top: 100px;
+  left: 0;
+}
+
+.bar2-B {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 16px;
+  height: 130px;
+  background-color: black;
+}
+.circle3-B {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(40deg);
+  transition: all 500ms;
+  top: 0;
+  left: 100px;
+}
+
+.bar3-B {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  height: 130px;
+  background-color: black;
+}
+
+.circle4-B {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  overflow: hidden;
+  transform: rotate(55deg);
+  transition: all 500ms;
+  top: 100px;
+  left: 100px;
+}
+
+.bar4-B {
+  width: 40px;
+  position: absolute;
+  top: -18px;
+  right: 4px;
+  height: 140px;
+  background-color: black;
+  transform: rotate(140deg)
+}
+
+.on .circle1-B {
+  transform: rotate(20deg);
+}
+.on .circle2-B {
+  transform: rotate(20deg);
+}
+.on .circle3-B {
+  transform: rotate(160deg);
+}
+.on .circle4-B {
+  transform: rotate(20deg);
+}
+
+
+
